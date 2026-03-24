@@ -1,7 +1,4 @@
 {
-  "bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
-  "allowed_users": [],
-  "python_path": "python",
   "claude_path": "claude",
   "work_dir": ".",
   "model": "claude-sonnet-4-20250514",
@@ -9,9 +6,11 @@
   "effort": "high",
   "max_turns": null,
   "history_size": 20,
-  "progress_interval": 10,
-  "system_prompt": "",
-  "allowed_tools": [],
-  "disallowed_tools": [],
-  "autostart": false
+
+  "bot_token": "YOUR_TELEGRAM_BOT_TOKEN",
+  "allowed_users": [],
+
+  "discord_token": "YOUR_DISCORD_BOT_TOKEN",
+
+  "web_token": ""
 }
