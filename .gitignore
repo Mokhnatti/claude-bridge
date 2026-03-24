@@ -1,0 +1,30 @@
+# Config with secrets
+*config*.json
+!config.example.json
+
+# State & logs
+*state*.json
+*.jsonl
+*.log
+*.db
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+*.spec
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Signals
+tg_bot_stop_signal
